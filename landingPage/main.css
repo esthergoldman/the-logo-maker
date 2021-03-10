@@ -1,0 +1,452 @@
+.sidebar{
+	width: 30%;
+	height:150vh;
+	position: relative;
+	float: left;
+	display: inline;
+	background-color: lightgray;
+	text-align: center;
+}
+.sidebarItem{
+
+	
+	width: 60%;
+	height: 25vh;
+	background-color: white;
+	position: relative;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	border-radius: 10px;
+	color: black;
+     text-transform: uppercase;
+     font-size: 13px;
+     font-family: 'Source Sans Pro', sans-serif;
+     letter-spacing: 2px;
+     list-style-type: none;
+	 text-align: center;
+	 
+
+}
+.mainCanvas{
+	position: relative;
+	width: 70%;
+	float: right;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: white;
+	height: 100vh;
+	text-align: center;
+}
+html, body{
+	margin: 0px;
+}
+
+.colorInputGradient{
+	width: 40%;
+	height: 60%;
+	position: relative;
+	border-radius: 10px;
+	display: inline-block;
+}
+.goBack{
+	margin-top: 1vh;
+	 color: black;
+     text-transform: uppercase;
+     font-size: 15px;
+     font-family: 'Source Sans Pro', sans-serif;
+     letter-spacing: 2px;
+     list-style-type: none;
+	 text-align: center;
+	 border-radius: 5px;
+	 text-decoration: none;
+	 border: none;
+	 outline:none;
+	 background-color: transparent;
+	 
+
+}
+
+
+
+/* button  */
+
+.home{
+	 margin-top: 1vh;
+	 color: black;
+     text-transform: uppercase;
+     font-size: 15px;
+     font-family: 'Source Sans Pro', sans-serif;
+     letter-spacing: 2px;
+     list-style-type: none;
+	 text-align: center;
+	 border-radius: 5px;
+	 text-decoration: none;
+	 border: none;
+	 outline:none;
+	 background-color: transparent;
+	 
+}
+
+.p{
+	color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+     font-family: 'Source Sans Pro', sans-serif;
+     letter-spacing: 2px;
+     list-style-type: none;
+	 text-align: center;
+	 position: relative; top: 2vh;
+}
+
+
+#textInput{
+	border: solid 1px black; 
+	width: 80%; 
+	height: 10%;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	outline:none;
+	box-sizing: border-box;  
+	resize:none;
+
+}
+
+#fontColor{
+	border: solid 1px black; 
+	width: 80%; 
+	height: 10%;
+	outline:none;
+	box-sizing: border-box;
+ 
+}
+
+#fonts {
+	border: solid 1px black; 
+	width: 80%; 
+	height: 10%;
+	outline:none;
+	box-sizing: border-box; 
+	box-shadow: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+
+}
+
+#fontsize{
+	width: 80%; 
+	height: 10%;
+
+}
+
+input[type="range"] {
+	width:80%;
+  }
+
+  #posx{
+	width: 20%;
+	border: solid 1px black; 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	outline: none;
+	margin-top: 2vh;
+	display: inline-flex;
+  }
+
+  /* cover
+
+  contain
+ */
+
+  /* BACKGROUND MENU STYLE */
+
+  #backgroundColor2{
+	width: 100px; 
+	height: 100px;
+	outline:none;
+  }
+
+ 
+  #borderW{
+	width:50%; 
+	height: 20px;
+	outline:none;
+	border: solid 1px black; 
+
+  }
+  #borderC{
+	width:50%; 
+	height: 20px;
+	outline:none;
+	border: solid 1px black; 
+	margin-top: 10px;
+
+
+  }
+  
+
+
+  .colorInputGradient{
+	border: solid 1px black; 
+	width: 20%; 
+	height: 70px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	outline:none;
+	box-sizing: border-box;  
+	resize:none;
+	padding: 0px;
+
+  }
+
+	#urlInput{
+		border: solid 1px black; 
+		width: 80%; 
+		height: 10%;
+		outline:none;
+		box-sizing: border-box; 
+	  }
+	
+	  #urlInputImg{
+		border: solid 1px black; 
+		width: 80%; 
+		height: 10%;
+		outline:none;
+		box-sizing: border-box; 
+	  }
+	
+  /* remove ugly border default */
+  input[type=color]{
+	
+	border: none;
+	background: none;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: solid 1px #000; /*change color of the swatch border here DO NOT REMOVE*/
+}
+
+
+/* create/delete TEXT  BUTTON */
+
+#create{
+	width: 40%; 
+	height:25px; 
+	font-size: 10px; 
+	background-color: lightgrey ;
+    color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	transition: 0.5; 
+	border: solid 1px black; 
+	outline:none; /* REMOVES BLUE LINE */
+
+ 
+}
+
+#create:hover{
+    background-color: #fcfcfc;
+}
+
+#delete{
+	width: 40%; 
+	height:25px; 
+	font-size: 1.5vh; 
+	margin-top: 2vh; 
+	background-color: lightgrey ;
+    color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	transition: 0.5; 
+	border: solid 1px black; 
+	outline:none;
+
+ 
+}
+
+#delete:hover{
+    background-color: #fcfcfc;
+}
+
+/* createS/deleteS SHAPE*/
+
+#createS{
+	width: 40%; 
+	height:25px; 
+	font-size: 1.5vh; 
+	background-color: lightgrey ;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+	transition: 0.5; 
+	border: solid 1px black; 
+	outline:none;
+	margin-top: 2vh;
+
+
+ 
+}
+
+#createS:hover{
+    background-color: #fcfcfc;
+}
+
+#deleteS{
+	width: 40%; 
+	height:25px; 
+	font-size: 1.5vh; 
+	background-color: lightgrey ;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+	transition: 0.5; 
+	border: solid 1px black; 
+	outline:none;
+	margin-top: 2vh;
+
+
+ 
+}
+
+#deleteS:hover{
+    background-color: #fcfcfc;
+}
+
+  
+/* SELECT TYPE */
+#selectShapeType {
+	margin-top: 2vh;
+	border: solid 1px black; 
+	width: 80%; 
+	height: 30px;
+	outline:none;
+	box-sizing: border-box; 
+	box-shadow: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+}
+
+
+
+/* sidebar white box */
+
+
+#sidebarItem1{
+	margin-top: 25px;
+	background-color: white;
+	height: 55px;
+	width: 75%;
+}
+
+#sidebarItem2{
+	margin-top: 25px;
+	background-color: white;
+	height: 260px;
+	width: 75%;
+}
+
+#sidebarItem3{
+	margin-top: 25px;
+	background-color: white;
+	height: 80px;
+	width: 75%;
+	display: block;
+	outline:none; /* REMOVES BLUE LINE */
+
+}
+
+#sidebarItem4{
+	margin-top: 25px;
+	background-color: white;
+	height: 100px;
+	width: 75%;
+    color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	transition: 0.5; 
+	outline:none; /* REMOVES BLUE LINE */
+}
+#sidebarItem5{
+	margin-top: 25px;
+	background-color: white;
+	height: 120px;
+	width: 75%;
+	outline:none; /* REMOVES BLUE LINE */
+}
+
+#sidebarItem6{
+	margin-top: 25px;
+	background-color: white;
+	height:260px;
+	width: 75%;
+}
+#sidebarItem7{
+	margin-top: 25px;
+	background-color: white;
+	height: 120px;
+	width: 75%;
+}
+#sidebarItem8{
+	margin-top: 25px;
+	background-color: white;
+	height: 100px;
+	width: 75%;
+}
+
+#sidebarItem9{
+	margin-top: 25px;
+	background-color: white;
+	height: 150px;
+	width: 75%;
+}
+
+#sidebarItem10{
+	margin-top: 25px;
+	background-color: white;
+	height:120px;
+	width: 75%;
+}
+
+#sidebarItem11{
+	margin-top: 25px;
+	background-color: white;
+	height: 100px;
+	width: 75%;
+}
+
+
+/*animations*/
+@keyframes fadeIn{
+	to{
+		opacity: 100%;
+	}
+	from{
+		opacity: 0%;
+	}
+}
+@keyframes spin{
+	to{
+		transform: rotate(0deg);
+	}
+	from{
+		transform: rotate(360deg);
+	}
+}
+@keyframes zoom{
+	to{
+		transform: scale(1);
+	}
+	from{
+		transform: scale(0);
+	}
+}
+@keyframes beat{
+	to{
+		transform: scale(1);
+	}
+	from{
+		transform: scale(1.1);
+	}
+}
+
+
