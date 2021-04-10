@@ -1,4 +1,4 @@
-# the-logo-maker
+# the logo maker
 
 (In collaboration with Natan Wiegenfeld)
 
